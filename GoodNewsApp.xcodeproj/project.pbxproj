@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		820F7A6B1F04854B003DDEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F7A6A1F04854B003DDEED /* AppDelegate.swift */; };
+		820F7A6D1F04854B003DDEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F7A6C1F04854B003DDEED /* ViewController.swift */; };
+		820F7A701F04854B003DDEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820F7A6E1F04854B003DDEED /* Main.storyboard */; };
+		820F7A721F04854B003DDEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820F7A711F04854B003DDEED /* Assets.xcassets */; };
+		820F7A751F04854B003DDEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820F7A731F04854B003DDEED /* LaunchScreen.storyboard */; };
+		820F7A801F04854B003DDEED /* GoodNewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F7A7F1F04854B003DDEED /* GoodNewsAppTests.swift */; };
+		820F7A8B1F04854B003DDEED /* GoodNewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820F7A8A1F04854B003DDEED /* GoodNewsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820F7A7C1F04854B003DDEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820F7A5F1F04854B003DDEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820F7A661F04854B003DDEED;
+			remoteInfo = GoodNewsApp;
+		};
+		820F7A871F04854B003DDEED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820F7A5F1F04854B003DDEED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820F7A661F04854B003DDEED;
+			remoteInfo = GoodNewsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		820F7A671F04854B003DDEED /* GoodNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		820F7A6A1F04854B003DDEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		820F7A6C1F04854B003DDEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		820F7A6F1F04854B003DDEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		820F7A711F04854B003DDEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		820F7A741F04854B003DDEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		820F7A761F04854B003DDEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820F7A7B1F04854B003DDEED /* GoodNewsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820F7A7F1F04854B003DDEED /* GoodNewsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsAppTests.swift; sourceTree = "<group>"; };
+		820F7A811F04854B003DDEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820F7A861F04854B003DDEED /* GoodNewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		820F7A8A1F04854B003DDEED /* GoodNewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsAppUITests.swift; sourceTree = "<group>"; };
+		820F7A8C1F04854C003DDEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		820F7A641F04854B003DDEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820F7A781F04854B003DDEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820F7A831F04854B003DDEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		820F7A5E1F04854B003DDEED = {
+			isa = PBXGroup;
+			children = (
+				820F7A691F04854B003DDEED /* GoodNewsApp */,
+				820F7A7E1F04854B003DDEED /* GoodNewsAppTests */,
+				820F7A891F04854B003DDEED /* GoodNewsAppUITests */,
+				820F7A681F04854B003DDEED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		820F7A681F04854B003DDEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820F7A671F04854B003DDEED /* GoodNewsApp.app */,
+				820F7A7B1F04854B003DDEED /* GoodNewsAppTests.xctest */,
+				820F7A861F04854B003DDEED /* GoodNewsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		820F7A691F04854B003DDEED /* GoodNewsApp */ = {
+			isa = PBXGroup;
+			children = (
+				820F7A6A1F04854B003DDEED /* AppDelegate.swift */,
+				820F7A6C1F04854B003DDEED /* ViewController.swift */,
+				820F7A6E1F04854B003DDEED /* Main.storyboard */,
+				820F7A711F04854B003DDEED /* Assets.xcassets */,
+				820F7A731F04854B003DDEED /* LaunchScreen.storyboard */,
+				820F7A761F04854B003DDEED /* Info.plist */,
+			);
+			path = GoodNewsApp;
+			sourceTree = "<group>";
+		};
+		820F7A7E1F04854B003DDEED /* GoodNewsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				820F7A7F1F04854B003DDEED /* GoodNewsAppTests.swift */,
+				820F7A811F04854B003DDEED /* Info.plist */,
+			);
+			path = GoodNewsAppTests;
+			sourceTree = "<group>";
+		};
+		820F7A891F04854B003DDEED /* GoodNewsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				820F7A8A1F04854B003DDEED /* GoodNewsAppUITests.swift */,
+				820F7A8C1F04854C003DDEED /* Info.plist */,
+			);
+			path = GoodNewsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		820F7A661F04854B003DDEED /* GoodNewsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820F7A8F1F04854C003DDEED /* Build configuration list for PBXNativeTarget "GoodNewsApp" */;
+			buildPhases = (
+				820F7A631F04854B003DDEED /* Sources */,
+				820F7A641F04854B003DDEED /* Frameworks */,
+				820F7A651F04854B003DDEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodNewsApp;
+			productName = GoodNewsApp;
+			productReference = 820F7A671F04854B003DDEED /* GoodNewsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		820F7A7A1F04854B003DDEED /* GoodNewsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820F7A921F04854C003DDEED /* Build configuration list for PBXNativeTarget "GoodNewsAppTests" */;
+			buildPhases = (
+				820F7A771F04854B003DDEED /* Sources */,
+				820F7A781F04854B003DDEED /* Frameworks */,
+				820F7A791F04854B003DDEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820F7A7D1F04854B003DDEED /* PBXTargetDependency */,
+			);
+			name = GoodNewsAppTests;
+			productName = GoodNewsAppTests;
+			productReference = 820F7A7B1F04854B003DDEED /* GoodNewsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		820F7A851F04854B003DDEED /* GoodNewsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820F7A951F04854C003DDEED /* Build configuration list for PBXNativeTarget "GoodNewsAppUITests" */;
+			buildPhases = (
+				820F7A821F04854B003DDEED /* Sources */,
+				820F7A831F04854B003DDEED /* Frameworks */,
+				820F7A841F04854B003DDEED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				820F7A881F04854B003DDEED /* PBXTargetDependency */,
+			);
+			name = GoodNewsAppUITests;
+			productName = GoodNewsAppUITests;
+			productReference = 820F7A861F04854B003DDEED /* GoodNewsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		820F7A5F1F04854B003DDEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Crystal Jade Allen-Washington";
+				TargetAttributes = {
+					820F7A661F04854B003DDEED = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					820F7A7A1F04854B003DDEED = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 820F7A661F04854B003DDEED;
+					};
+					820F7A851F04854B003DDEED = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 820F7A661F04854B003DDEED;
+					};
+				};
+			};
+			buildConfigurationList = 820F7A621F04854B003DDEED /* Build configuration list for PBXProject "GoodNewsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 820F7A5E1F04854B003DDEED;
+			productRefGroup = 820F7A681F04854B003DDEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				820F7A661F04854B003DDEED /* GoodNewsApp */,
+				820F7A7A1F04854B003DDEED /* GoodNewsAppTests */,
+				820F7A851F04854B003DDEED /* GoodNewsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		820F7A651F04854B003DDEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820F7A751F04854B003DDEED /* LaunchScreen.storyboard in Resources */,
+				820F7A721F04854B003DDEED /* Assets.xcassets in Resources */,
+				820F7A701F04854B003DDEED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820F7A791F04854B003DDEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820F7A841F04854B003DDEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		820F7A631F04854B003DDEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820F7A6D1F04854B003DDEED /* ViewController.swift in Sources */,
+				820F7A6B1F04854B003DDEED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820F7A771F04854B003DDEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820F7A801F04854B003DDEED /* GoodNewsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820F7A821F04854B003DDEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820F7A8B1F04854B003DDEED /* GoodNewsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		820F7A7D1F04854B003DDEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820F7A661F04854B003DDEED /* GoodNewsApp */;
+			targetProxy = 820F7A7C1F04854B003DDEED /* PBXContainerItemProxy */;
+		};
+		820F7A881F04854B003DDEED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820F7A661F04854B003DDEED /* GoodNewsApp */;
+			targetProxy = 820F7A871F04854B003DDEED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		820F7A6E1F04854B003DDEED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820F7A6F1F04854B003DDEED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		820F7A731F04854B003DDEED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				820F7A741F04854B003DDEED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		820F7A8D1F04854C003DDEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		820F7A8E1F04854C003DDEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		820F7A901F04854C003DDEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoodNewsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CJA-Enterprises.GoodNewsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		820F7A911F04854C003DDEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoodNewsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CJA-Enterprises.GoodNewsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		820F7A931F04854C003DDEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoodNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CJA-Enterprises.GoodNewsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodNewsApp.app/GoodNewsApp";
+			};
+			name = Debug;
+		};
+		820F7A941F04854C003DDEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoodNewsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CJA-Enterprises.GoodNewsAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodNewsApp.app/GoodNewsApp";
+			};
+			name = Release;
+		};
+		820F7A961F04854C003DDEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoodNewsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CJA-Enterprises.GoodNewsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoodNewsApp;
+			};
+			name = Debug;
+		};
+		820F7A971F04854C003DDEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GoodNewsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CJA-Enterprises.GoodNewsAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoodNewsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		820F7A621F04854B003DDEED /* Build configuration list for PBXProject "GoodNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820F7A8D1F04854C003DDEED /* Debug */,
+				820F7A8E1F04854C003DDEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820F7A8F1F04854C003DDEED /* Build configuration list for PBXNativeTarget "GoodNewsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820F7A901F04854C003DDEED /* Debug */,
+				820F7A911F04854C003DDEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		820F7A921F04854C003DDEED /* Build configuration list for PBXNativeTarget "GoodNewsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820F7A931F04854C003DDEED /* Debug */,
+				820F7A941F04854C003DDEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		820F7A951F04854C003DDEED /* Build configuration list for PBXNativeTarget "GoodNewsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820F7A961F04854C003DDEED /* Debug */,
+				820F7A971F04854C003DDEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 820F7A5F1F04854B003DDEED /* Project object */;
+}
